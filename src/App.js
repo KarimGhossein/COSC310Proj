@@ -147,9 +147,6 @@ function App() {
           showStreet ? (
             <>
                <LoadScript googleMapsApiKey="AIzaSyCAkObyNX_TmVta_gTfTsLzs--hE3KATTg" libraries={lib}>
-      
-
-
                       <>
                         
                       <GoogleMap
@@ -164,14 +161,9 @@ function App() {
                             position={center}
                             visible={true}
                           />
-                        
-                    
-
                         <></>
                       </GoogleMap>
-
                       </>
-
                </LoadScript>
             </>
 
@@ -182,24 +174,7 @@ function App() {
             </>
           )
         }
-
-
-
-
-     
-    
-
-
- 
-
 </header>
-
-
-
-
-
-
-  
     </div>
   );
 }
